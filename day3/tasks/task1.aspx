@@ -7,7 +7,7 @@
     <title></title>
     <style>
         .main{
-            width : 400px;
+            width : 411px;
             height : 200px;
         }
     </style>
