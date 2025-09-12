@@ -3,7 +3,6 @@
     min-height: 100vh; /* full height instead of fixed */
     border: 2px groove #ccc;
 }
-
 .head {
     width: 100%;
     min-height: 130px; /* flexible height */
