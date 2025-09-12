@@ -1,0 +1,73 @@
+﻿.main {
+    width: 100%;
+    min-height: 100vh; /* full height instead of fixed */
+    border: 2px groove #ccc;
+}
+
+.head {
+    width: 100%;
+    min-height: 130px; /* flexible height */
+    border: 2px groove #ccc;
+}
+
+.nav {
+    width: 100%;
+    min-height: 50px;
+    border: 2px groove #ccc;
+    justify-content : center;
+    justify-items : center;
+}
+
+.content {
+    width: 100%;
+    min-height: 400px; /* grows with content */
+    border: 2px groove #ccc;
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    min-height: 50px;
+    border: 2px groove #ccc;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover; /* keeps aspect ratio */
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: scale(1.05); /* zoom effect */
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+/* Navbar hover underline */
+.custom-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+    .custom-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        display: block;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #007bff; /* underline color */
+        transition: width 0.3s ease;
+    }
+
+    .custom-link:hover {
+        color: #007bff !important;
+    }
+
+   .custom-link:hover::after {
+            width: 100%;
+     }
