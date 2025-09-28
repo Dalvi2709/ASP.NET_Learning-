@@ -6,6 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2 class="text-center mb-4">Mobile Collection</h2>
+
     <div class="row g-4">
         <!-- Mobile 1 -->
         <div class="col-md-3 col-sm-6">
@@ -58,6 +59,7 @@
     </div>
 
 </asp:Content>
+
 
 
 
