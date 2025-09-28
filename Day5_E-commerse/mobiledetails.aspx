@@ -9,6 +9,7 @@
     <div class="row g-4">
         <!-- Mobile 1 -->
         <div class="col-md-3 col-sm-6">
+
             <div class="card h-100 shadow-sm">
                 <img src="images/samsungph.jpeg" class="card-img-top" alt="Mobile 1" />
                 <div class="card-body text-center">
@@ -57,5 +58,6 @@
     </div>
 
 </asp:Content>
+
 
 
