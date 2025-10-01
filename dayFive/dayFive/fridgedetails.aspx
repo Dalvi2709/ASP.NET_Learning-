@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-
+ 
         <!-- Fridge 2 -->
         <div class="col-md-3 col-sm-6">
             <div class="card h-100 shadow-sm">
