@@ -27,7 +27,7 @@
         }
         label {
             font-weight: bold;
-        }
+        } 
         .btn {
             padding: 8px 18px;
             margin: 8px 5px 0 0;
