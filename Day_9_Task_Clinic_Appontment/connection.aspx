@@ -16,7 +16,7 @@
         string f = Request.Params["pdis"];
 
         SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=sanjivanclinic; Trusted_Connection=true;");
-        con.Open();
+        con.Open(); 
 
         // Insert query with correct column names
         //SqlCommand cmd = new SqlCommand(
@@ -50,3 +50,4 @@
     %>
 </body>
 </html>
+
